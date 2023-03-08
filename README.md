@@ -6,9 +6,14 @@ This project was to code my own porfolio from scratch. Using the mock up of the 
 
 
 ## Screenshot of Portfolio
-![Alt text](./Assets/images/app.screenshot.png)
+![Alt text](./Assets/images/screenshotpfl.png)
 
 ## Link
 
 
 ## Resources
+https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-areas
+https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-columns
+https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-rows
+https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries
+https://www.w3schools.com/cssref/sel_hover.php

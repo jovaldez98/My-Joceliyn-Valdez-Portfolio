@@ -171,7 +171,7 @@ figure {
 }
 /*for each indiviual picture, the first figure has to be the biggest one*/
 figure.p1 {
-    background-image: url("../images/1stproject.jpg");
+    background-image: url("../images/p1img.jpg");
     object-fit: cover;
     width: 100%;
     border: 5px solid var(--purple-color);
@@ -188,7 +188,7 @@ figure.p1 figure:hover {
 }
 
 figure.p2 {
-    background-image: url("../images/2ndproject.jpg");
+    background-image: url("../images/p2img.jpg");
     object-fit: cover;
     width: 100%;
     border: 5px solid var(--purple-color);
@@ -204,7 +204,7 @@ figure.p2 figure:hover {
     filter: sepia(0%);
 }
 figure.p3 {
-    background-image: url("../images/3rdproject.jpg");
+    background-image: url("../images/p3img.jpg");
     object-fit: cover;
     width: 100%;
     border: 5px solid var(--purple-color);
@@ -220,7 +220,7 @@ figure.p3 figure:hover {
 }
 
 figure.p4 {
-    background-image: url("../images/3rdproject.JPG");
+    background-image: url("../images/p3img.jpg");
     object-fit: cover;
     width: 100%;
     border: 5px solid var(--purple-color);
@@ -236,7 +236,7 @@ figure.p4 figure:hover {
 }
 
 figure.p5 {
-    background-image: url("../images/3rdproject.JPG");
+    background-image: url("../images/p3img.jpg");
     object-fit: cover;
     width: 100%;
     border: 5px solid var(--purple-color);
