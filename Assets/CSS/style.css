@@ -1,3 +1,10 @@
+:root {
+  --purple-color: darkorchid;
+  --gray-color: #445876;
+  --light-purple: rgb(157, 88, 191);
+  --border-radius: 5px;
+}
+
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     line-height: 1;
@@ -14,12 +21,12 @@ header {
 header h1 {
     padding: 0 15px 0 5%;
     line-height: normal;
-    background-color: darkorchid;
+    background-color: var(--purple-color);
 
 }
 
 .portfolio-title {
-    color:#445876;
+    color: var(--gray-color);
     font-size: 50px;
 }
 
@@ -39,15 +46,16 @@ header nav {
 }
  
 .top-hdr a {
-    color: darkorchid;
+    color: var(--purple-color);
     font-size: 25px;
     text-decoration: none;
     padding: 5px 10px;
-    border-bottom: 4px solid darkorchid;
+    border-bottom: 4px solid var(--purple-color);
 }
 
 .top-hdr a:hover {
     background-color: gray;
+    border-radius: var(--border-radius);
 }
 
 .hero {
@@ -61,8 +69,8 @@ header nav {
 }
 
 .hero h1 {
-    background-color: darkorchid;
-    color:#445876;
+    background-color: var(--purple-color);
+    color: var(--gray-color);
     font-size: 35px;
     padding: 0 10px;
     display: flex;
@@ -82,13 +90,13 @@ section {
 .profile-photo {
     width: 10%;
     margin: 0 2% 1% 0;
-    border: 5px solid darkorchid;
+    border: 5px solid var(--purple-color);
     float: left;
 }
 
 section header {
     flex-basis: 20%;
-    border-right:solid #445876 4px;
+    border-right:solid var(--gray-color) 4px;
     margin-right:50px;
     padding: 20px;
     background-color: white;
@@ -101,7 +109,7 @@ section header {
 }
 
 h2 {
-    color: darkorchid;
+    color: var(--purple-color);
     font-size: 40px;
     text-align: right;
     font-weight: 900;
@@ -114,10 +122,10 @@ section div {
 }
 
 #projects {
-    display: grid;
+    display:grid;
     flex-wrap: wrap;
     width: 100%;
-    grid-template-rows: 1.5fr 1fr 1fr;
+    grid-template-rows: 1.2fr 1fr 1fr;
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
         "p1 p1"
@@ -136,11 +144,26 @@ section div {
     height: 250px;
 }
 
+.p1 {
+    grid-area: p1;
+}
+.p2 {
+    grid-area: p2;
+}
+.p3 {
+    grid-area: p3;
+}
+.p4 {
+    grid-area: p4;
+}
+.p5 {
+    grid-area: p5;
+}
 
 figure {
     width: 100%;
     position: relative;
-    border: 5px darkorchid;
+    border: 5px var(--purple-color);
     min-height: 310px;
     background-size: cover;
     background-position: center;
@@ -151,7 +174,7 @@ figure.p1 {
     background-image: url("../images/1stproject.jpg");
     object-fit: cover;
     width: 100%;
-    border: 5px solid darkorchid;
+    border: 5px solid var(--purple-color);
     filter: sepia(25%);
     opacity: 65%;
     min-height: 310px;
@@ -168,7 +191,7 @@ figure.p2 {
     background-image: url("../images/2ndproject.jpg");
     object-fit: cover;
     width: 100%;
-    border: 5px solid darkorchid;
+    border: 5px solid var(--purple-color);
     filter: sepia(25%);
     opacity: 65%;
     min-height: 310px;
@@ -184,7 +207,7 @@ figure.p3 {
     background-image: url("../images/3rdproject.jpg");
     object-fit: cover;
     width: 100%;
-    border: 5px solid darkorchid;
+    border: 5px solid var(--purple-color);
     filter: sepia(25%);
     opacity: 65%;
     min-height: 310px;
@@ -200,7 +223,7 @@ figure.p4 {
     background-image: url("../images/3rdproject.JPG");
     object-fit: cover;
     width: 100%;
-    border: 5px solid darkorchid;
+    border: 5px solid var(--purple-color);
     filter: sepia(25%);
     opacity: 65%;
     min-height: 310px;
@@ -216,7 +239,7 @@ figure.p5 {
     background-image: url("../images/3rdproject.JPG");
     object-fit: cover;
     width: 100%;
-    border: 5px solid darkorchid;
+    border: 5px solid var(--purple-color);
     filter: sepia(25%);
     opacity: 65%;
     min-height: 310px;
@@ -232,7 +255,7 @@ figcaption {
     position: absolute;
     bottom: 30px;
     padding: 10px;
-    background-color: darkorchid;
+    background-color: var(--purple-color);
 }
 
 .soon {
@@ -252,13 +275,13 @@ figcaption {
     padding: 5px;
     margin-left: 10px;
     font-size: 24px;
-    color: #445876;
+    color: var(--gray-color);
     display: inline-block;
 }
 
 .contact a:hover {
-    background-color: rgb(157, 88, 191);
-    border-radius: 5px;
+    background-color: var(--light-purple);
+    border-radius: var(--border-radius);
 }
 
 footer {
