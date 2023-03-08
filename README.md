@@ -6,7 +6,7 @@ This project was to code my own porfolio from scratch. Using the mock up of the 
 
 
 ## Screenshot of Portfolio
-![Alt text](assets/images/app.screenshot.png)
+![Alt text](./Assets/images/app.screenshot.png)
 
 ## Link
 
