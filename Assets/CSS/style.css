@@ -171,7 +171,7 @@ figure {
 }
 /*for each indiviual picture, the first figure has to be the biggest one*/
 figure.p1 {
-    background-image: url("../images/p1img.jpg");
+    background-image: url("../images/image.png");
     object-fit: cover;
     width: 100%;
     border: 5px solid var(--purple-color);
