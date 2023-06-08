@@ -10,7 +10,7 @@ This project was to code my own porfolio from scratch. Using the mock up of the 
 
 ## Link
 My Portfolio
-https://jovaldez98.github.io/My-Joceliyn-Valdez-Portfolio/
+
 
 ## Resources
 https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-areas
